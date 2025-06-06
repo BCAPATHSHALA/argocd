@@ -5,6 +5,6 @@ metadata:
 spec:
   containers:
     - name: todoapp
-      image: manojofficialmj/todoapp:0127aa2f0a6dd2e07c2adc929c3f88119e243f64
+      image: manojofficialmj/todoapp:32094c46cca4e498a1756a6b2c56a378ee7a728d
       ports:
         - containerPort: 80
