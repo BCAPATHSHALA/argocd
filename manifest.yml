@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: todoapp-pod
+spec:
+  containers:
+    - name: todoapp
+      image: manojofficialmj/todoapp:0127aa2f0a6dd2e07c2adc929c3f88119e243f64
+      ports:
+        - containerPort: 80
